@@ -243,3 +243,13 @@ python code/main.py --interactive
 3. **NVIDIA NIM Embeddings** — uses `input_type="passage"` for corpus indexing and `input_type="query"` for search (the distinction NVIDIA requires for optimal retrieval)
 4. **Exponential Backoff** — handles API rate limits gracefully (8s → 16s → 32s → 64s → 90s retries)
 5. **4 LLM Calls / Ticket** — classifier + query rewriter + responder + self-check; justification is template-based to save one call per ticket
+
+---
+
+## 🏆 HackerRank Certificate of Excellence
+
+**"THE SURVIVOR"**
+
+This project achieved **276th place** in building & submitting an AI Agent as part of **HackerRank Orchestrate May 2026**.
+
+This recognition reflects our commitment to building trustworthy, deterministic support systems that prioritize safety and accuracy over hallucination, as endorsed by the HackerRank evaluation framework.
